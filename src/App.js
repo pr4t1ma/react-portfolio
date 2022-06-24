@@ -1,12 +1,13 @@
 import "./App.css";
 
 import { BannerText } from "./BannerText/BannerText";
+import { Footer } from "./Footer/Footer";
 import { Header } from "./Header/Header";
 import { Heading } from "./Heading/Heading";
 import { Intro } from "./Intro/Intro";
-import { MyMoreProjects } from "./MyMoreProjects/MyMoreProjects";
+import { Projects } from "./Projects/Projects";
 
-import { Myprojects } from "./MyProjects/MyProjects";
+import { FeaturedProject } from "./FeaturedProject/FeaturedProject";
 import { TabbedPanels } from "./TabbedPanels/TabbedPanels";
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
       <Heading text="My Experence" />
       <TabbedPanels />
       <Heading text="My feature Projects" />
-      <Myprojects />
-      <MyMoreProjects />
+      <FeaturedProject />
+      <Projects />
+      <Footer />
     </div>
   );
 }

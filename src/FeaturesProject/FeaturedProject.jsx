@@ -1,10 +1,10 @@
-import { Project } from "../Project/Project";
+import { SimpleProject } from "../SimpleProject/SimpleProject";
 import { ProjectText } from "../ProjectText/ProjectText";
 
-export const Myprojects = () => {
+export const FeaturedProject = () => {
   return (
     <div className="container mx-auto grid grid-cols-12">
-      <Project />
+      <SimpleProject />
       <ProjectText
         title="Featured Projects "
         subtitle="12 column grid system in CSS and Tailwind CSS"
