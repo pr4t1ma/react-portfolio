@@ -5,8 +5,7 @@ import { Footer } from "./Footer/Footer";
 import { Header } from "./Header/Header";
 import { Heading } from "./Heading/Heading";
 import { Intro } from "./Intro/Intro";
-import { Projects } from "./Projects/Projects";
-
+import { Project } from "./Project/Project";
 import { FeaturedProject } from "./FeaturedProject/FeaturedProject";
 import { TabbedPanels } from "./TabbedPanels/TabbedPanels";
 
@@ -19,9 +18,10 @@ function App() {
       <BannerText />
       <Heading text="My Experence" />
       <TabbedPanels />
-      <Heading text="My feature Projects" />
+      <Heading text="My featured Projects" />
       <FeaturedProject />
-      <Projects />
+      <Project />
+
       <Footer />
     </div>
   );
