@@ -9,11 +9,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d7cec7;
+  color: #565656;
+  font-size: 16px;
 }
+
 h1,
 h2,
 h3,
-h4 {
+h4,
+logo {
   font-family: "Cormorant", serif;
 }
 header a {
@@ -22,7 +27,20 @@ header a {
 p {
   font-family: sans-serif;
 }
+.active {
+  @apply bg-oxblood text-white;
+}
 
+.font-book,
+.panel-heading {
+  font-family: "Cormorant", serif;
+}
+
+button,
+.button {
+  @apply bg-peach text-white font-bold px-4 py-2 text-xl inline-block text-center;
+  font-family: "Cormorant", serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

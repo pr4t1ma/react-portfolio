@@ -9,6 +9,8 @@ module.exports = {
       blackboard: "#565656",
       oxblood: "#76323f",
       tan: "#c09f80",
+      peach: "#ea677f",
+      forestgreen: "#82A3AC",
     },
 
     extend: {},

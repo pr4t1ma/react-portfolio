@@ -10,7 +10,7 @@ export const Header = () => {
   ];
   return (
     <header className="  bg-oxblood p-3">
-      <div className="container mx-auto grid grid-cols-4 gap-3 ">
+      <div className="container mx-auto md:grid md:grid-cols-4 gap-3">
         <Logo />
         <Menu items={menuItems} />
       </div>
