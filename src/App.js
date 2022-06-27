@@ -20,7 +20,11 @@ function App() {
       <TabbedPanels />
       <Heading text="My featured Projects" />
       <FeaturedProject />
-      <Project />
+      <div className="Projects container  mx-auto grid gap-3 grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 ">
+        <Project />
+        <Project />
+        <Project />
+      </div>
 
       <Footer />
     </div>
