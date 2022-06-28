@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #d7cec7;
   color: #565656;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h1,
@@ -23,6 +23,12 @@ logo {
 }
 .project-header a:hover {
   color: rgb(168, 85, 85);
+}
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-2xl;
 }
 
 header a {

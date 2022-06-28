@@ -1,6 +1,6 @@
 export const Intro = () => {
   return (
-    <div className=" intro container bg-white mt-20 mx-auto text-left p-20 shadow-2xl">
+    <div className=" intro container bg-white mt-20 mx-4 w-fit text-left p-20 shadow-2xl lg:mx-auto ">
       <div className="py-5 text-4xl text-tan">
         <p>My name is </p>
       </div>

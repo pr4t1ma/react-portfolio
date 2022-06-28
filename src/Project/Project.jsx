@@ -3,14 +3,14 @@ import { faFolder, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Project = ({ link, text, title }) => {
   return (
-    <div className="container mx-auto p-8 bg-white shadow-2xl shadow-gray my-20">
+    <div className="container mx-3 p-5 my-3  md:mx-auto bg-white shadow-2xl shadow-gray lg:my-10 ">
       <div className="project-header flex justify-between">
         <div className="project-folder ">
           <a className=" text-2xl text-oxblood" href="#">
             <FontAwesomeIcon icon={faFolder} />
           </a>
         </div>
-        <div className="polyline text-2xl text-oxblood flex gap-5">
+        <div className="polyline text-2xl text-oxblood flex gap-3">
           <a href="#">
             <FontAwesomeIcon icon={faGlobe} />
           </a>

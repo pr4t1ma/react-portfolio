@@ -2,7 +2,7 @@ import { Banner } from "../Banner";
 
 export const BannerText = () => {
   return (
-    <div className=" container shadow-xl shadow-gray mx-auto lg:grid grid-cols-2 gap-4 bg-forestgreen p-4 ">
+    <div className=" container shadow-xl shadow-gray w-fit mx-auto lg:mx-auto lg:grid grid-cols-2 gap-4 bg-forestgreen p-4 ">
       <div className=" md:shrink-0 ">
         <Banner />
       </div>

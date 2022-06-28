@@ -3,7 +3,7 @@ import { ProjectText } from "../ProjectText/ProjectText";
 
 export const FeaturedProject = () => {
   return (
-    <div className="container mx-auto md:grid md:grid-cols-12">
+    <div className="container mx-5 lg:mx-auto md:grid md:grid-cols-12">
       <SimpleProject />
       <ProjectText
         title="Featured Projects "
