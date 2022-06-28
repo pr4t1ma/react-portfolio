@@ -1,17 +1,20 @@
 export const Menu = ({ items }) => {
   return (
-    <div className="flex item-left gap-5 justify-start flex-wrap lg:justify-end items-center col-span-3  ">
-      <ul className=" md:flex justify-center gap-12  ">
+    <div className=" item-left gap-5  items-center md:flex md:justify-start md:flex-wrap md:col-span-1 lg:col-span-3 lg:justify-end  ">
+      <ul className="divide-y divide-tan md:flex md:justify-center md:gap-12 md:border-none md:divide-none ">
         {items.map((item) => (
           <li key={item.label}>
-            <a className="hover:font-bold ease-in-out" href={item.href}>
+            <a
+              className="hover:font-bold ease-in-out py-3 px-4 block"
+              href={item.href}
+            >
               {item.label}
             </a>
           </li>
         ))}
       </ul>
-      <div className=" block lg:inline-block  ml-3 ">
-        <button className=" text-xl">Resume</button>
+      <div className=" block  md:block lg:inline-block  lg:ml-3 ">
+        <button className="w-full text-xl">Resume</button>
       </div>
     </div>
   );
