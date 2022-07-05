@@ -6,6 +6,23 @@ import { Menu } from "../Menu/Menu";
 
 export const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const hamburgerIcon = (
+    <faBurger
+      className="Hamburger"
+      size="50px"
+      color="white"
+      onClick={() => setMenuOpen(!true)}
+    />
+  );
+
+  const closeIcon = (
+    <faBurger
+      className="Hamburger"
+      size="50px"
+      color="white"
+      onClick={() => setMenuOpen(!true)}
+    />
+  );
 
   const toggleMenu = () => {
     if (isMenuOpen) {
@@ -23,14 +40,20 @@ export const Header = () => {
   ];
   return (
     <header className="  bg-oxblood p-3">
-      <div className="container mx-auto md:grid md:grid-cols-4 gap-3">
+      <div className="container w-fit mx-auto md:grid md:grid-cols-4 gap-3 lg:grid lg:grid-cols-2 ">
         <FontAwesomeIcon
           icon={faBurger}
-          className="text-white"
+          className="hamburgerIcon text-white visible md:hidden"
           onClick={toggleMenu}
         />
         <Logo />
-        {isMenuOpen && <Menu items={menuItems} />}
+        <div className="mobile-menu md:hidden">
+          {isMenuOpen ? closeIcon : hamburgerIcon}
+          {isMenuOpen && <Menu items={menuItems} />}
+        </div>
+        <div className="desktop-menu hidden md:block lg:block">
+          <Menu items={menuItems} />
+        </div>
       </div>
     </header>
   );
