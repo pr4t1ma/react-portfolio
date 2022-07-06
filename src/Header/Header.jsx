@@ -7,18 +7,20 @@ import { Menu } from "../Menu/Menu";
 export const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const hamburgerIcon = (
-    <faBurger
+    <FontAwesomeIcon
+      icon={faBurger}
       className="Hamburger"
-      size="50px"
+      size="xl"
       color="white"
       onClick={() => setMenuOpen(!true)}
     />
   );
 
   const closeIcon = (
-    <faBurger
+    <FontAwesomeIcon
+      icon={faBurger}
       className="Hamburger"
-      size="50px"
+      size="xl"
       color="white"
       onClick={() => setMenuOpen(!true)}
     />

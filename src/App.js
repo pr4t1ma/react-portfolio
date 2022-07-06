@@ -10,7 +10,8 @@ import { FeaturedProject } from "./FeaturedProject/FeaturedProject";
 import { TabbedPanels } from "./TabbedPanels/TabbedPanels";
 import { GetInTouch } from "./GetInTouch/GetInTouch";
 import { TodoList } from "./TodoList/TodoList";
-import { IncreDecre } from "./UseStateIncrDecr/IncreDecre";
+import { TestTodoList } from "./SimpleProject/PracticeTodolist/TestTodoList";
+import { Calculator } from "./Calculator/Calculator";
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
         text="loremipsum the most be more text about personal information hobbies and other topic most be here written  "
       />
       <TodoList />
-      <IncreDecre />
+
+      <TestTodoList />
+      <Calculator />
 
       <Footer />
     </div>

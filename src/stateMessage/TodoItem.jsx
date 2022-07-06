@@ -14,7 +14,14 @@ export const TodoItem = ({ id, text, onDelete }) => {
         }}
       />{" "}
       {text}
-      <button className="ml-10" onClick={() => onDelete(id)}>
+      <button
+        className="ml-10"
+        onClick={() => {
+          console.log(id);
+          console.log(onDelete);
+          onDelete(id);
+        }}
+      >
         x
       </button>
     </div>

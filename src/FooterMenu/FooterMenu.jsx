@@ -3,7 +3,7 @@ export const FooterMenu = ({ items }) => {
     <div>
       <ul className=" flex flex-col md:flex md:flex-row md:justify-center my-10">
         {items.map((item) => (
-          <li>
+          <li key={item.label}>
             <a className="p-10" src={item.href}>
               {item.label}
             </a>

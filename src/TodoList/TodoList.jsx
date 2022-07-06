@@ -24,6 +24,7 @@ export const TodoList = () => {
     setFormOpen(false);
   };
   const deleteItem = (id) => {
+    console.log(id);
     const newArray = items.filter((item) => item.id !== id);
     setItems(newArray);
   };
@@ -40,13 +41,13 @@ export const TodoList = () => {
         {isFormOpen && (
           <div className=" my-5 w-fit flex flex-wrap gap-3  ">
             <input
-              className="w-fit p-2 text-center  outline-0"
+              className="w-fit p-2 text-center   outline-0"
               type="text"
               placeholder="Add new Items"
               onChange={(e) => setNewItem(e.target.value)}
               value={newItem}
             />
-            <button className="mr-2" onClick={(e) => addItem(e.target.value)}>
+            <button className="mr-2" onClick={addItem}>
               Add Item
             </button>
             <button onClick={closeForm}>Close</button>
@@ -61,7 +62,7 @@ export const TodoList = () => {
                   <TodoItem
                     id={item.id}
                     text={item.value}
-                    ondelete={deleteItem}
+                    onDelete={deleteItem}
                   />
                 </li>
               );

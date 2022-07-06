@@ -51,6 +51,11 @@ button,
   @apply bg-peach text-white font-bold px-4 py-2 text-xl inline-block text-center;
   font-family: "Cormorant", serif;
 }
+
+.screen {
+  font-family: Orbitron;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
