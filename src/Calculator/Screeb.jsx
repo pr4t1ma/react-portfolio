@@ -15,7 +15,7 @@ export const Screen = () => {
 
   return (
     <div className="d">
-      <div className="screen h-15 my-5 bg-white text-center align-center shadow-2xl text-right">
+      <div className="screen h-15 my-5 bg-white text-center align-center shadow-2xl p-2 text-right">
         {screenNumber}
       </div>
       <div className="button-list grid gap-2 grid-cols-4 ">
