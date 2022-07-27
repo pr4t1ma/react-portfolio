@@ -52,6 +52,7 @@ export const TabbedPanels = () => {
           (panelData, i) =>
             active === i && (
               <Panels
+                key={panelData}
                 heading={panelData.heading}
                 date={panelData.date}
                 text={panelData.text}

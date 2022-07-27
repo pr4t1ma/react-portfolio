@@ -8,7 +8,7 @@ export const LocationCard = ({
   return (
     <div>
       <div className="profile-img ">
-        <img classname="rounded-full" src={profileimg} alt="" />
+        <img className="rounded-full" src={profileimg} alt="" />
         <div className="username my-2">{name}</div>
       </div>
       <img className="w-12/12" src={locationimg} alt="" />

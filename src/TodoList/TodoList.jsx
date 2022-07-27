@@ -46,6 +46,7 @@ export const TodoList = () => {
               placeholder="Add new Items"
               onChange={(e) => setNewItem(e.target.value)}
               value={newItem}
+              k
             />
             <button className="mr-2" onClick={addItem}>
               Add Item

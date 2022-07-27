@@ -1,4 +1,4 @@
-import { faBell, faSearch, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Notification = () => {
@@ -6,7 +6,6 @@ export const Notification = () => {
     <div className="flex  gap-5  items-center py-2 px-5">
       <div className="notification-icon">
         <FontAwesomeIcon icon={faBell} />
-        {<FontAwesomeIcon icon="fa-solid fa-xmark-large" />}
       </div>
       <div className="flex items-center py-2 px-5 ">
         <input className="border-y-2 p-2 " type="text" />

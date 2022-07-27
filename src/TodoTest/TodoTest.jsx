@@ -15,7 +15,7 @@ export const TodoTest = () => {
   return (
     <div className="container mx-auto bg-white shadow-2xl my-6 p-5">
       <h1>To do Test</h1>
-      <button onclick={openForm}>FormOpen</button>
+      <button onClick={openForm}>FormOpen</button>
 
       {isFormOpen && (
         <div>
@@ -25,8 +25,8 @@ export const TodoTest = () => {
             value={newItem}
             onChange={(e) => setNewItem(e.target.value)}
           />
-          <button onclick={addItem}>Add item</button>
-          <button onclick={closeForm}>closeForm</button>
+          <button onClick={addItem}>Add item</button>
+          <button onClick={closeForm}>closeForm</button>
         </div>
       )}
     </div>

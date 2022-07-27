@@ -1,5 +1,5 @@
 import { Location } from "./Location";
-import { TravelContaint } from "./Travel Containt";
+import { TravelContent } from "./Travel Content";
 import { UserInformation } from "./UserInformation";
 import { YoutubeHeader } from "./YoutubeMenu/YoutubeHeader/youtubeHeader";
 
@@ -14,15 +14,15 @@ export const Travel = () => {
       mystories: "long stories",
     },
     {
-      name: "Baman",
+      name: "Shamba",
       message:
-        "hello i want to be your frend and you accept please i send frend request to you",
-      mystories: "long stories",
+        "ant to be your frend and you accept please i send frend request to you",
+      mystories: "stories",
     },
     {
-      name: "Baman",
+      name: "Markal",
       message:
-        "hello i want to be your frend and you accept please i send frend request to you",
+        "hello i r frend and you accept please i send frend request to you",
       mystories: "long stories",
     },
   ];
@@ -33,6 +33,7 @@ export const Travel = () => {
         <div className="col-span-2 md:col-span-3 gap-3 ">
           {usersData.map((userData) => (
             <UserInformation
+              key={userData.name}
               photo={userData.photo}
               name={userData.name}
               message={userData.message}
@@ -41,7 +42,7 @@ export const Travel = () => {
           ))}
         </div>
         <div className="col-span-7 md:col-span-7 ">
-          <TravelContaint />
+          <TravelContent />
         </div>
         <div className="span-3 md:col-span-2">
           <Location />

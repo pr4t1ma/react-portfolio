@@ -54,7 +54,7 @@ function App() {
         <div className="container mx-auto">
           <h1 className="text-center text-oxblood font-bold">Accordion</h1>
           {accordionData.map(({ title, content }) => (
-            <Accordion title={title} content={content} />
+            <Accordion key={title} title={title} content={content} />
           ))}
         </div>
 

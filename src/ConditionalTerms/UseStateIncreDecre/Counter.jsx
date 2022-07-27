@@ -13,7 +13,7 @@ export const Counter = () => {
         <button onClick={() => setCount(count + 1)}>increment Count</button>
         <span className="align-center p-3 bg-gray">{count}</span>
         <button onClick={() => setCount(count - 1)}>Decrement Count</button>
-        <button style={{ color: "green" }} onclick={changeText}>
+        <button style={{ color: "green" }} onClick={changeText}>
           {theme} click me
         </button>
       </div>

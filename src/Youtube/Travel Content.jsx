@@ -1,6 +1,6 @@
 import { TravelCard } from "./TravelCard";
 
-export const TravelContaint = () => {
+export const TravelContent = () => {
   const cards = [
     {
       img: "https://www.planetware.com/wpimages/2020/06/best-cheap-places-to-travel-may-santorini-greece.jpg",
@@ -29,6 +29,7 @@ export const TravelContaint = () => {
       <div className="container mx-auto flex-col gap-4 p-2 my-2 md:flex-row  ">
         {cards.map((card) => (
           <TravelCard
+            key={card.img}
             img={card.img}
             place={card.place}
             heading={card.heading}

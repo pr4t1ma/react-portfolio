@@ -4,10 +4,10 @@ export const Location = () => {
   const locationDatas = [
     {
       profileimg:
-        "https://image.shutterstock.com/image-photo/profile-picture-smiling-millennial-asian-260nw-1836020740.jpg",
+        "https://image.shutterstock.com/image-photo/profile-picture-smiling-millennial-asian-250nw-1836020750.jpg",
       locationimg:
         "https://ontheworldmap.com/switzerland/switzerland-location-map.jpg",
-      name: "Nisu",
+      name: "misu",
       title: "Swizerland",
       text: "this is a text could be change and change due to the contain reason",
     },
@@ -15,8 +15,8 @@ export const Location = () => {
       profileimg:
         "https://image.shutterstock.com/image-photo/profile-picture-smiling-millennial-asian-260nw-1836020740.jpg",
       name: "Nisu",
-      title: "Swizerland",
-      text: "this is a text could be change and change due to the contain reason",
+      title: "Neatherland",
+      text: "this could be change and change due to the contain reason",
     },
   ];
   return (
@@ -24,6 +24,7 @@ export const Location = () => {
       <div>
         {locationDatas.map((locationData) => (
           <LocationCard
+            key={locationData.title}
             profileimg={locationDatas.profileimg}
             name={locationData.name}
             locationimg={locationData.locationimg}
