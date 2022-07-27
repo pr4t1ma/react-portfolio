@@ -1,5 +1,5 @@
-import { Notification } from "../../Notification";
-import { YoutubeMenu } from "../YoutubeMenu";
+import { Notification } from "../Notification";
+import { YoutubeMenu } from "../YoutubeMenu/YoutubeMenu";
 
 export const YoutubeHeader = () => {
   const items = [

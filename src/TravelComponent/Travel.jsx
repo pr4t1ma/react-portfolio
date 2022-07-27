@@ -1,7 +1,7 @@
-import { Location } from "./Location";
-import { TravelContent } from "./Travel Content";
-import { UserInformation } from "./UserInformation";
-import { YoutubeHeader } from "./YoutubeMenu/YoutubeHeader/youtubeHeader";
+import { YoutubeHeader } from "../Youtube/YoutubeHeader/youtubeHeader";
+import { UserInformation } from "../Youtube/UserInformation";
+import { TravelContent } from "../Youtube/TravelContent";
+import { Location } from "../Youtube/Location";
 
 export const Travel = () => {
   const usersData = [

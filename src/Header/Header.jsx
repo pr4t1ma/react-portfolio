@@ -36,9 +36,10 @@ export const Header = () => {
 
   const menuItems = [
     { label: "Home", href: "/" },
-    { label: "Works", href: "/" },
-    { label: "Experence", href: "/" },
-    { label: "Contact", href: "/" },
+    { label: "Works", href: "/Works" },
+    { label: "Experence", href: "/experence" },
+    { label: "Travel", href: "/travel" },
+    { label: "Contact", href: "/Contact" },
   ];
   return (
     <header className="  bg-oxblood p-3">
