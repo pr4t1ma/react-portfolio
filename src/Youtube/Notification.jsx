@@ -1,4 +1,4 @@
-import { faBell, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faSearch, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Notification = () => {
