@@ -57,7 +57,7 @@ export const TestTodoList = () => {
       <div className="to-do">
         <ul className=" my-2 items-center">
           {items.map((item) => (
-            <li className="gap-3 my-2        flex" key={item.id}>
+            <li className="gap-3 my-2 flex" key={item.id}>
               {item.value}
               <button
                 className="ml-3 px-3 py-1"
