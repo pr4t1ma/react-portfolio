@@ -2,7 +2,6 @@ import { useState } from "react";
 export const FunctionComponent = () => {
   const [color, setColor] = useState("red");
   const [brand, setBrand] = useState("Select the brand");
-  const [model, setModel] = useState("laravel");
 
   const changeColor = (e) => {
     setColor(e.target.value);

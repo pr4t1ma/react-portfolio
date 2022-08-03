@@ -4,7 +4,7 @@ export const Tags = ({ items }) => {
       <ul className="flex flex-wrap justify-end">
         {items.map((item) => (
           <li className="my-4" key={item.label}>
-            <a className="p-3  " src={item.href}>
+            <a className="p-3" src= {item.href}>
               {item.label}
             </a>
           </li>

@@ -1,5 +1,5 @@
-import { faHeart, faShare } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart, faShare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const TravelCard = ({ img, place, heading, text, date }) => {
   return (

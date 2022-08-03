@@ -1,43 +1,11 @@
-import { useState } from "react";
-import { Panels } from "../Panels/Panels";
-import { Tabs } from "../Tabs/Tabs";
+import { useState } from 'react';
+import { Panels } from '../Panels/Panels';
+import { Tabs } from '../Tabs/Tabs';
+import { panelsData } from './TabbedPanelsData';
+import { items } from './TabbedPanelsData';
 
 export const TabbedPanels = () => {
   const [active, setActive] = useState(0);
-
-  const items = [
-    { label: "HTML" },
-    { label: "CSS" },
-    { label: "Javascript" },
-    { label: "React" },
-  ];
-
-  const panelsData = [
-    {
-      heading: "HTML My new data",
-      subHeading: "subhead",
-      date: "January 2022",
-      text: "Honey lorem ipsum",
-    },
-    {
-      heading: "CSS My new data",
-      subHeading: "subhead",
-      date: "January 2022",
-      text: "Honey ",
-    },
-    {
-      heading: "Javascript My new data",
-      subHeading: "subhead",
-      date: "January 2022",
-      text: "Honey ",
-    },
-    {
-      heading: "React My new data",
-      subHeading: "subhead",
-      date: "January 2022",
-      text: "Honey ",
-    },
-  ];
 
   const onTabChangeHandler = (i) => {
     setActive(i);

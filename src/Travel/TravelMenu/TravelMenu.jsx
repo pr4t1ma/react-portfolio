@@ -1,9 +1,9 @@
-import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { faBars, faMultiply } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-export const YoutubeMenu = ({ items }) => {
+export const TravelMenu = ({ items }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   function openMenu() {
