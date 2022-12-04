@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { blogListData } from './BlogList';
+import { blogListData } from "./BlogList";
 
 export const Blogs = () => {
   return (

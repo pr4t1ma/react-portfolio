@@ -1,4 +1,4 @@
-import { Screen } from "./Screeb";
+import { Screen } from "./Screen";
 
 export const Calculator = () => {
   return (

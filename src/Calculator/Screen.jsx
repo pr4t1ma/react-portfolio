@@ -6,6 +6,7 @@ export const Screen = () => {
       if (e.target.value === "Ac") {
         return "0";
       } else if (e.target.value === "=") {
+        // eslint-disable-next-line no-eval
         return eval(screenNumber);
       } else {
         return old === "0" ? e.target.value : old + e.target.value;
@@ -15,7 +16,7 @@ export const Screen = () => {
 
   return (
     <div className="d">
-      <div className="screen h-15 my-5 bg-white text-center align-center shadow-2xl p-2 text-right">
+      <div className="screen h-15 my-5 bg-white align-center shadow-2xl p-2 text-right">
         {screenNumber}
       </div>
       <div className="button-list grid gap-2 grid-cols-4 ">

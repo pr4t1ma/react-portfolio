@@ -6,15 +6,21 @@ export const Project = ({ link, text, title }) => {
     <div className="container mx-3 p-5 my-3  md:mx-auto bg-white shadow-2xl shadow-gray lg:my-10 ">
       <div className="project-header flex justify-between">
         <div className="project-folder ">
-          <a className=" text-2xl text-oxblood" href="#">
-            <FontAwesomeIcon icon={faFolder} />
-          </a>
+          <FontAwesomeIcon className=" text-2xl text-oxblood" icon={faFolder} />
         </div>
         <div className="polyline text-2xl text-oxblood flex gap-3">
-          <a href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://pr4t1ma.github.io/portfolio/"
+          >
             <FontAwesomeIcon icon={faGlobe} />
           </a>
-          <a href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/pr4t1ma/react-portfolio"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
