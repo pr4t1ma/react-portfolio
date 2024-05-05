@@ -1,16 +1,16 @@
-import './App.css';
+import "./App.css";
 
-import { Footer } from './Footer/Footer';
-import { Header } from './Header/Header';
-import { NotificationItem } from './Travel/NotificationItem';
-import { Error } from './Error';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from './HomeCOmponents/Home';
-import { Experence } from './ExperenceComponent/Experence';
-import { Works } from './WorksComponent/Works';
-import { Contact } from './ContactComponent/Contact';
-import { Travel } from './TravelComponent/Travel';
-import { Blogs } from './BlogsTest/Blogs';
+import { Footer } from "./Footer/Footer";
+import { Header } from "./Header/Header";
+import { NotificationItem } from "./Travel/NotificationItem";
+import { Error } from "./Error";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./HomeCOmponents/Home";
+import { Experence } from "./ExperenceComponent/Experence";
+import { Works } from "./WorksComponent/Works";
+import { Contact } from "./ContactComponent/Contact";
+import { Travel } from "./TravelComponent/Travel";
+import { Blogs } from "./BlogsTest/Blogs";
 
 function App() {
   return (

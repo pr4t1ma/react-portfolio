@@ -2,7 +2,7 @@ import { blogListData } from "./BlogList";
 
 export const Blogs = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Hello</h1>
       {blogListData.map((blog) => (
         <div className="border m-1">

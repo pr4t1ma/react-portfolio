@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TodoItem } from "../stateMessage/TodoItem";
+
 export const TodoList = () => {
   const [newItem, setNewItem] = useState("");
   const [items, setItems] = useState([]);
@@ -46,7 +46,6 @@ export const TodoList = () => {
               placeholder="Add new Items"
               onChange={(e) => setNewItem(e.target.value)}
               value={newItem}
-              k
             />
             <button className="mr-2" onClick={addItem}>
               Add Item
@@ -60,11 +59,7 @@ export const TodoList = () => {
             {items.map((item) => {
               return (
                 <li key={item.id}>
-                  <TodoItem
-                    id={item.id}
-                    text={item.value}
-                    onDelete={deleteItem}
-                  />
+                  <p>todo</p>
                 </li>
               );
             })}

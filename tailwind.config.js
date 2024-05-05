@@ -11,6 +11,8 @@ module.exports = {
       tan: "#c09f80",
       peach: "#ea677f",
       forestgreen: "#82A3AC",
+      green:"#32766A",
+      gray:"#999", 
     },
 
     extend: {},
