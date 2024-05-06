@@ -3,7 +3,8 @@ import { Counter } from "../ConditionalTerms/UseStateIncreDecre/Counter";
 import { TodoList } from "../TodoList/TodoList";
 import { Accordion } from "../TodoList/Accordion/Accordion";
 import { accordionData } from "../Data/AccordionData";
-import Registrationform from "../Data/RegistrationForm/Registrationform";
+import Registrationform from "../RegistrationForm/Registrationform";
+import Customhook from "../Customhook/Customhook";
 
 export const Works = () => {
   return (
@@ -18,6 +19,7 @@ export const Works = () => {
         ))}
       </div>
       <Registrationform />
+      <Customhook />
     </div>
   );
 };

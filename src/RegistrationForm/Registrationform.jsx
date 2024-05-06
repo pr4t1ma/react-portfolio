@@ -30,7 +30,6 @@ const Registrationform = () => {
     e.preventDeffault();
     alert("account create!");
     clearForm();
-    console.log("hello");
   };
 
   return (
