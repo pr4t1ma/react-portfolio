@@ -40,6 +40,9 @@ p {
 .active {
   @apply bg-oxblood text-white;
 }
+img {
+  width: 100%;
+}
 
 .font-book,
 .panel-heading {

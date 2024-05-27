@@ -40,6 +40,7 @@ const Registrationform = () => {
         className="bg-oxblood text-white p-20 rounded-md"
       >
         <div className="formselector">
+          ``
           <h1>Sign up</h1>
           <div className="field ">
             <label htmlFor="name">Name</label>
@@ -94,7 +95,6 @@ const Registrationform = () => {
               placeholder="password"
             />
           </div>
-
           <div className="field">
             <label htmlFor="role">Role</label>
             <select

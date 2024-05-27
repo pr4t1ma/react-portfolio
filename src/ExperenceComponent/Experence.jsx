@@ -6,7 +6,7 @@ import { TabbedPanels } from "../TabbedPanels/TabbedPanels";
 export const Experence = () => {
   return (
     <div>
-      <Heading text="My Experence" />
+      <Heading text="My Skills" />
       <TabbedPanels />
       <Heading text="My featured Projects" />
       <FeaturedProject />

@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Panels } from '../Panels/Panels';
-import { Tabs } from '../Tabs/Tabs';
-import { panelsData } from './TabbedPanelsData';
-import { items } from './TabbedPanelsData';
+import { useState } from "react";
+import { Panels } from "../Panels/Panels";
+import { Tabs } from "../Tabs/Tabs";
+import { panelsData } from "./TabbedPanelsData";
+import { items } from "./TabbedPanelsData";
 
 export const TabbedPanels = () => {
   const [active, setActive] = useState(0);

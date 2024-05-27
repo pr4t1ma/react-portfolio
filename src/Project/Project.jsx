@@ -26,14 +26,10 @@ export const Project = ({ link, text, title }) => {
         </div>
       </div>
       <div className="project-title">
-        <h3>{title}</h3>
+        <h3 className="text-3xl text-warmGray-800 bold my-2">{title}</h3>
       </div>
       <div className="project-description">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ipsum
-          recusandae ut, cumque veniam vero asperiores totam quaerat ab quisquam
-          id eligendi, tempora facilis nisi magni. Cum ut eveniet rerum.
-        </p>
+        <p>{text}</p>
       </div>
     </div>
   );

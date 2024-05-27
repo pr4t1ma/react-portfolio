@@ -5,7 +5,7 @@ import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 export const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="container mx-auto bg-white bg-opacity-50     shadow-xlS p-5 my-3 ">
+    <div className="container mx-auto bg-white bg-opacity-50 shadow-xlS p-5 my-3 ">
       <div className="accordion">
         <div
           className="accordion-title cursor-pointer flex justify-between"
@@ -13,7 +13,6 @@ export const Accordion = ({ title, content }) => {
         >
           <h2 className="text-tan font-bold">{title}</h2>
           <div className="">
-            {" "}
             {isActive ? (
               <FontAwesomeIcon icon={faMinus} />
             ) : (
