@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-
 export const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
   return (

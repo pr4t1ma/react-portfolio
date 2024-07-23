@@ -1,7 +1,9 @@
 import { FeaturedProject } from "../FeaturedProject/FeaturedProject";
 import { Heading } from "../Heading/Heading";
 import { Project } from "../Project/Project";
+import Projectjourney from "../Project/Projectjourney";
 import { TabbedPanels } from "../TabbedPanels/TabbedPanels";
+import ProjectInfo from "./ProjectInfo";
 
 export const Experence = () => {
   return (
@@ -20,6 +22,7 @@ export const Experence = () => {
           See more
         </a>
       </div>
+      <ProjectInfo />
     </div>
   );
 };

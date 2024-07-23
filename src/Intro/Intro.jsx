@@ -15,9 +15,12 @@ export const Intro = () => {
             <p>
               I'm a UI/UX designer diving into web development. I'm passionate
               about creating seamless user experiences by blending design with
-              technology. I am currently focusing to learn HTML, CSS Javascript
-              and React(Frontend web development). My Hobby is watching movies,
-              listening to music and travelling.
+              technology. I am currently focusing on learning HTML, CSS,
+              JavaScript, and React (frontend web development) through online
+              platforms like Coursera and Udemy. I have also completed a
+              JavaScript course from ReDI School and web development courses
+              from TechLabs, along with a project. My hobbies are watching
+              movies, listening to music, and traveling.
             </p>
           </div>
           <div className="my-10 flex gap-5">

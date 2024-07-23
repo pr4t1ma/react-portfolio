@@ -2,11 +2,13 @@ import { FeaturedProject } from "../FeaturedProject/FeaturedProject";
 import { Heading } from "../Heading/Heading";
 import { Intro } from "../Intro/Intro";
 import { Project } from "../Project/Project";
+import Shoppinglist from "../Shoppinglist/Shoppinglist";
 import { TabbedPanels } from "../TabbedPanels/TabbedPanels";
 
 export const Home = () => {
   return (
     <div>
+      <Shoppinglist />
       <Intro />
       <div>
         <Heading text="My Skills" />

@@ -7,7 +7,7 @@ export const Menu = ({ items }) => {
           <li key={item.label}>
             <Link
               to={item.href}
-              className="hover:font-bold ease-in-out py-3 px-4 block"
+              className="hover:text-gray-200 ease-in-out py-3 px-4 block"
             >
               {item.label}
             </Link>
