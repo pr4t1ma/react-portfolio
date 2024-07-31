@@ -1,8 +1,18 @@
 import { Project } from "../ProjectText/Project";
+const items = [
+  { name: "React projects" },
+  { name: "UX projects" },
+  { name: "Webflow projects" },
+];
 
 export const FeaturedProject = () => {
   return (
     <div className="container mx-5 lg:mx-auto md:grid md:grid-cols-12">
+      <ul className="flex gap-10">
+        {items.map((item) => {
+          return <li>{item.name}</li>;
+        })}
+      </ul>
       <Project
         img="../images/project1.png"
         title="Featured Projects "

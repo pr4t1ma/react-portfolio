@@ -1,7 +1,7 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFolder, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-export const Project = ({ link, text, title }) => {
+export const Project = ({ link, text, title, img, figma, github, web }) => {
   return (
     <div className=" md:mx-auto bg-white shadow-2xl shadow-gray lg:my-10 p-7 ">
       <div className="project-header flex justify-between">
@@ -16,16 +16,24 @@ export const Project = ({ link, text, title }) => {
           >
             <FontAwesomeIcon icon={faGlobe} />
           </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/pr4t1ma/react-portfolio"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
+          {github && (
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/pr4t1ma/react-portfolio"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          )}
+          {figma && (
+            <a target="_blank" rel="noreferrer" href={figma}>
+              <FontAwesomeIcon icon={faFigma} />
+            </a>
+          )}
         </div>
       </div>
       <div className="project-title">
+        <img src={img} alt="" />
         <h3 className="text-3xl text-warmGray-800 bold my-2">{title}</h3>
       </div>
       <div className="project-description">

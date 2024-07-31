@@ -7,7 +7,7 @@ module.exports = {
       ...colors,
       grain: "#d7cec7",
       blackboard: "#565656",
-      oxblood: "#76323f",
+      oxblood: "#916796",
       tan: "#c09f80",
       peach: "#6b7632",
       forestgreen: "#82A3AC",
