@@ -8,8 +8,8 @@ export const items = [
 
 export const panelsData = [
   {
-    heading: "HTMl learn during training period",
-    subHeading: "Training in 3Hambers in nepal ",
+    heading: "HTMl learn during Internship",
+    subHeading: "Mastered HTML with W3Schools and FreeCodeCamp. Applied skills in real-world projects during my internship. ",
     date: "2014 ",
     text: `"my self-learning journey with HTML, 
     I found myself captivated by its foundational role in web development. 
@@ -23,7 +23,7 @@ export const panelsData = [
      into the world of HTML and explore new horizons in web development"`,
   },
   {
-    heading: "Enhancing Website Aesthetics.The Transformative Power of CSS",
+    heading: "CSS learn during Internship",
     subHeading: "Training in 3hammbers in nepal",
     date: "2014",
     text: "during my training time, I got chance to learn html, css bootstrape css and photoshop. That time I heve design website by writing css code my adding background, padding margin and adding images and creating cards design.  ",
