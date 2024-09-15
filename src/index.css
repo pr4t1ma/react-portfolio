@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d7cec7;
+  /* background-color: #d7cec7; */
   color: #565656;
   font-size: 18px;
 }
@@ -51,8 +51,9 @@ img {
 
 button,
 .button {
-  @apply bg-peach text-white font-bold px-4 py-2 text-xl inline-block text-center;
+  @apply bg-oxblood  text-white font-bold px-7 py-2 text-xl inline-block text-center;
   font-family: "Cormorant", serif;
+  border-radius: 17px;
 }
 
 .screen {

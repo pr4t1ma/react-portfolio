@@ -9,7 +9,7 @@ module.exports = {
       blackboard: "#565656",
       oxblood: "#916796",
       tan: "#c09f80",
-      peach: "#6b7632",
+      peach: "#e4a7a7",
       forestgreen: "#82A3AC",
       green: "#32766A",
       gray: "#999",

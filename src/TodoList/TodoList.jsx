@@ -41,7 +41,7 @@ export const TodoList = () => {
         {isFormOpen && (
           <div className=" my-5 w-fit flex flex-wrap gap-3  ">
             <input
-              className="w-fit p-2 text-center   outline-0"
+              className="w-fit p-2 text-center outline-0"
               type="text"
               placeholder="Add new Items"
               onChange={(e) => setNewItem(e.target.value)}
@@ -60,6 +60,7 @@ export const TodoList = () => {
               return (
                 <li key={item.id}>
                   <p>todo</p>
+                  <button onClick={deleteItem}>delete</button>
                 </li>
               );
             })}

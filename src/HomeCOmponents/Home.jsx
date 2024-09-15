@@ -8,7 +8,6 @@ import { TabbedPanels } from "../TabbedPanels/TabbedPanels";
 export const Home = () => {
   return (
     <div>
-      <Shoppinglist />
       <Intro />
       <div>
         <Heading text="My Skills" />
@@ -17,19 +16,10 @@ export const Home = () => {
         {/* <FeaturedProject /> */}
         <div className="Projects container  mx-auto grid gap-3 grid-cols-1  my-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:my-10">
           <Project
-            title="portfolio project"
-            figma="https://www.figma.com/proto/79LusJXlmKPZBcxbRdFgOi/Portfolio?node-id=1195-1826&t=bqRRyxf5x7wAyxLr-1&scaling=min-zoom&content-scaling=fixed&page-id=45%3A240&starting-point-node-id=1101%3A1747"
-            img={"./images/Portfolio.png"}
-            text="This project was created to enhance my skills in HTML, CSS, and
-          JavaScript. By working on this project, I aimed to deepen my
-          understanding of front-end web development concepts and techniques.
-          Throughout the process, I gained valuable experience in structuring
-          web pages, styling elements with CSS, and implementing interactive
-          features using JavaScript"
-          />
-          <Project
-            img={"./images/designafter.png"}
+            img={"./images/bundes-01.png"}
             title="Bundesplatz kino"
+            webflow="/"
+            github="https://github.com/pr4t1ma/bundesplatz-kino"
             figma="https://www.figma.com/proto/TEZivjw1eL9fvCDt5Sdltq/Bundesplatz-Kino-Berlin?node-id=900-5151&t=K3cH3NJaEn9U4BUw-1&scaling=min-zoom&content-scaling=fixed&page-id=271%3A726&starting-point-node-id=900%3A6693"
             text="Bundesplatz Kino is a local cinema targeting nearby residents. I redesigned their website with a focus on providing the best user experience. I conducted research, user interviews, and user testing to identify pain points and addressed these issues in the new design.
             "
@@ -47,13 +37,13 @@ export const Home = () => {
                app in response to project requirements."
           />
 
-          <Project
+          {/* <Project
             img={"./images/Bundes1.png"}
             title="Bundesplatz kino"
             github="https://github.com/pr4t1ma/bundesplatz-kino"
             text="To build this website, I utilized the latest technologies, specifically React.js for efficient and dynamic front-end development and Tailwind CSS for streamlined and responsive design. By combining these powerful tools, I was able to create a modern, user-friendly interface that meets the needs of Bundesplatz Kino's audience
             "
-          />
+          /> */}
 
           <Project
             img={"./images/brlinbites.png"}
@@ -72,6 +62,25 @@ export const Home = () => {
             title="Health App"
             figma="https://www.figma.com/proto/iXi2ChI0nOwo3D3qPWXz7m/Health-app?node-id=424-2483&t=vQFsUL1HYAMFtaV0-1&scaling=min-zoom&content-scaling=fixed&page-id=424%3A2283&starting-point-node-id=424%3A2491"
             text="The problem we are addressing is managing health issues, specifically controlling blood pressure and sugar levels by tracking vital signs. Our solution aims to provide users with a comprehensive tool for monitoring their health metrics, offering personalized insights and alerts to help them maintain optimal health."
+          />
+          <Project
+            img={
+              "https://techlabs-community.slack.com/files/U059XU3UWCE/F06T8LBV42G/configurator.mov"
+            }
+            title="Book store"
+            github="https://github.com/TechLabs-Berlin/ws24-reuse-record"
+            text="By designing this book store library website, we aim to create a valuable resource that enhances the user's ability to find and explore books easily. I used the latest technologies such as React.js with Tailwind CSS for the frontend and Node.js with Express for the backend."
+          />
+          <Project
+            title="portfolio project"
+            figma="https://www.figma.com/proto/79LusJXlmKPZBcxbRdFgOi/Portfolio?node-id=1195-1826&t=bqRRyxf5x7wAyxLr-1&scaling=min-zoom&content-scaling=fixed&page-id=45%3A240&starting-point-node-id=1101%3A1747"
+            img={"./images/Portfolio.png"}
+            text="This project was created to enhance my skills in HTML, CSS, and
+          JavaScript. By working on this project, I aimed to deepen my
+          understanding of front-end web development concepts and techniques.
+          Throughout the process, I gained valuable experience in structuring
+          web pages, styling elements with CSS, and implementing interactive
+          features using JavaScript"
           />
         </div>
 

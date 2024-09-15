@@ -1,8 +1,8 @@
-import { faBars, faMultiply } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
-import { Logo } from '../Logo/Logo';
-import { Menu } from '../Menu/Menu';
+import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import { Logo } from "../Logo/Logo";
+import { Menu } from "../Menu/Menu";
 
 export const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -34,15 +34,15 @@ export const Header = () => {
   );
 
   const menuItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Works', href: '/Works' },
-    { label: 'Experence', href: '/experence' },
-    { label: 'Travel', href: '/travel' },
-    { label: 'Contact', href: '/Contact' },
+    { label: "Home", href: "/" },
+    { label: "Works", href: "/Works" },
+    { label: "Experence", href: "/experence" },
+
+    { label: "Contact", href: "/Contact" },
   ];
   return (
-    <header className="  bg-oxblood p-3">
-      <div className="container w-fit mx-auto md:grid md:grid-cols-4 gap-3 lg:grid lg:grid-cols-2 ">
+    <header className=" p-3 py-9">
+      <div className="container mx-auto md:grid md:grid-cols-4 gap-3 lg:grid lg:grid-cols-2 ">
         <Logo />
         <div className="mobile-menu md:hidden">
           {isMenuOpen ? closeIcon : hamburgerIcon}

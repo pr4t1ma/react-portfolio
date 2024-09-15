@@ -1,7 +1,16 @@
 import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFolder, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-export const Project = ({ link, text, title, img, figma, github, web }) => {
+export const Project = ({
+  link,
+  text,
+  title,
+  img,
+  figma,
+  github,
+  web,
+  webflow,
+}) => {
   return (
     <div className=" md:mx-auto bg-white shadow-2xl shadow-gray lg:my-10 p-7 ">
       <div className="project-header flex justify-between">
