@@ -49,7 +49,6 @@ img {
   font-family: "Cormorant", serif;
 }
 
-button,
 .button {
   @apply bg-oxblood  text-white font-bold px-7 py-2 text-xl inline-block text-center;
   font-family: "Cormorant", serif;
