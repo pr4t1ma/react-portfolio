@@ -6,8 +6,8 @@ import { Header } from "./Header/Header";
 import { Error } from "./Error";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./HomeCOmponents/Home";
-import { Experence } from "./ExperenceComponent/Experence";
-import { Works } from "./WorksComponent/Works";
+// import { Experence } from "./ExperenceComponent/Experence";
+// import { Works } from "./WorksComponent/Works";
 import { Contact } from "./ContactComponent/Contact";
 
 function App() {
