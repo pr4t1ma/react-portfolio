@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Homepage
+
+"homepage": "https://pr4t1ma.github.io/react-portfolio",
+
+
 ## Available Scripts
 
 In the project directory, you can run:

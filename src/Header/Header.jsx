@@ -35,8 +35,8 @@ export const Header = () => {
 
   const menuItems = [
     { label: "Home", href: "/" },
-    { label: "Works", href: "/Works" },
-    { label: "Experence", href: "/experence" },
+    // { label: "Works", href: "/Works" },
+    // { label: "Experence", href: "/experence" },
 
     { label: "Contact", href: "/Contact" },
   ];

@@ -16,8 +16,9 @@ export const Home = () => {
         {/* <FeaturedProject /> */}
         <div className="Projects container  mx-auto grid gap-3 grid-cols-1  my-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:my-10">
           <Project
-            img={"./images/bundes-01.png"}
+            img={"/images/bundes-01.png"}
             title="Bundesplatz kino"
+            web="https://pr4t1ma.github.io/bundesplatz-kino/#/"
             webflow="/"
             github="https://github.com/pr4t1ma/bundesplatz-kino"
             figma="https://www.figma.com/proto/TEZivjw1eL9fvCDt5Sdltq/Bundesplatz-Kino-Berlin?node-id=900-5151&t=K3cH3NJaEn9U4BUw-1&scaling=min-zoom&content-scaling=fixed&page-id=271%3A726&starting-point-node-id=900%3A6693"
@@ -73,6 +74,7 @@ export const Home = () => {
           />
           <Project
             title="portfolio project"
+            web="https://pr4t1ma.github.io/portfolio/"
             figma="https://www.figma.com/proto/79LusJXlmKPZBcxbRdFgOi/Portfolio?node-id=1195-1826&t=bqRRyxf5x7wAyxLr-1&scaling=min-zoom&content-scaling=fixed&page-id=45%3A240&starting-point-node-id=1101%3A1747"
             img={"./images/Portfolio.png"}
             text="This project was created to enhance my skills in HTML, CSS, and
