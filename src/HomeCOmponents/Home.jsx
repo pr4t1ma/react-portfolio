@@ -1,8 +1,8 @@
-import { FeaturedProject } from "../FeaturedProject/FeaturedProject";
+// import { FeaturedProject } from "../FeaturedProject/FeaturedProject";
 import { Heading } from "../Heading/Heading";
 import { Intro } from "../Intro/Intro";
 import { Project } from "../Project/Project";
-import Shoppinglist from "../Shoppinglist/Shoppinglist";
+// import Shoppinglist from "../Shoppinglist/Shoppinglist";
 import { TabbedPanels } from "../TabbedPanels/TabbedPanels";
 
 export const Home = () => {
